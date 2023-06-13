@@ -10,8 +10,8 @@ function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <div className={styles.App}>
-            <div>
+        <div className="flex flex-col p-8 justify-center items-center h-screen w-screen bg-red-200">
+            <div className="flex">
                 <a href="https://vitejs.dev" target="_blank">
                     <ViteLogo
                         height="6em"
