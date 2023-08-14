@@ -18,7 +18,7 @@
     "@types/react": "^18.2.8",
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react": "^4.0.0",
-    "@wixc3/react-board": "^2.2.1",
+    "@wixc3/react-board": "^2.3.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "sass": "^1.62.1",
