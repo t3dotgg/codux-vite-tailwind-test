@@ -10,19 +10,17 @@ function App() {
         <div className="flex h-screen w-screen flex-col items-center justify-center bg-gray-800 p-8">
             <div className="flex">
                 <a href="https://vitejs.dev" target="_blank">
-                    <ViteLogo className={'p-6 h-36 w-36'} title="Vite logo" />
+                
+                    <ViteLogo className={'h-36 w-36 p-6'} title="Vite logo" />
                 </a>
                 <a href="https://reactjs.org" target="_blank" download={undefined}>
-                    <ReactLogo className={'p-6 h-36 w-36'} title="React logo" />
+                    <ReactLogo className={'h-36 w-36 p-6'} title="React logo" />
                 </a>
                 <a href="https://www.typescriptlang.org/" target="_blank">
-                    <TypescriptLogo
-                        className={'p-6 h-36 w-36'}
-                        title="Typescript logo"
-                    />
+                    <TypescriptLogo className={'h-36 w-36 p-6'} title="Typescript logo" />
                 </a>
             </div>
-            <div className={'p-8'}>
+            <div className={'p-8 text-gray-100'}>
                 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR

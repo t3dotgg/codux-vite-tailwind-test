@@ -1,6 +1,4 @@
 {
-  "printWidth": 100,
-  "singleQuote": true,
   "overrides": [
     {
       "files": ["*.js", "*.cjs", "*.mjs", "*.ts", "*.tsx", "*.cts", "*.mts"],
@@ -8,5 +6,6 @@
         "tabWidth": 4
       }
     }
-  ]
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
